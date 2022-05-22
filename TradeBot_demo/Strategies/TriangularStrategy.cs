@@ -4,7 +4,7 @@ namespace TradeBot_demo.Strategies
 {
     public class TriangularStrategy : Strategy, IStrategy
     {
-        public string Name { get; private set; } = "Triangule strategy";
+        public string Name { get; private set; } = "Triangular strategy";
         public string Date { get; private set; }
 
         public Task Execute(string date)
