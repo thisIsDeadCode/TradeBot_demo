@@ -2,20 +2,20 @@
 {
     public abstract class Strategy
     {
-        public decimal StartBalanceUSDT { get; protected set; } = 10000;
-        public decimal StartBalanceBTC { get; protected set; }
-        public decimal StartBalanceETH { get; protected set; }
+        public decimal StartBalanceCurrency1 { get; protected set; }
+        public decimal StartBalanceCurrency2 { get; protected set; }
+        public decimal StartBalanceCurrency3 { get; protected set; }
 
-        public decimal BalanceUSDT { get; protected set; } = 10000;
-        public decimal BalanceBTC { get; protected set; } 
-        public decimal BalanceETH { get; protected set; } 
+        public decimal BalanceCurrency1 { get; protected set; }
+        public decimal BalanceCurrency2 { get; protected set; } 
+        public decimal BalanceCurrency3 { get; protected set; } 
 
-        public decimal ProfitUSDT { get; protected set; }
-        public decimal ProfitBTC { get; protected set; }
-        public decimal ProfitETH { get; protected set; }
+        public decimal ProfitCurrency1 { get; protected set; }
+        public decimal ProfitCurrency2 { get; protected set; }
+        public decimal ProfitCurrency3 { get; protected set; }
 
-        public decimal PercentProfitUSDT { get; protected set; }
-        public decimal PercentProfitBTC { get; protected set; }
-        public decimal PercentProfitETH { get; protected set; }
+        public decimal PercentProfitCurrency1 { get; protected set; }
+        public decimal PercentProfitCurrency2 { get; protected set; }
+        public decimal PercentProfitCurrency3 { get; protected set; }
     }
 }
